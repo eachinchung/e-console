@@ -7,7 +7,6 @@
         field="username"
         :rules="[
           { required: true, message: '用户名不能为空' },
-          { minLength: 6, message: '必须大于 6 个字符' },
           { maxLength: 20, message: '必须小于 20 个字符' },
         ]"
         :validate-trigger="['change', 'blur']"
