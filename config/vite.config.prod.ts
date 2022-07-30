@@ -18,6 +18,7 @@ export default mergeConfig(
       rollupOptions: {
         output: {
           manualChunks: {
+            axios: ["axios", "query-string"],
             arco: ["@arco-design/web-vue"],
             vue: ["vue", "vue-router", "@vueuse/core", "pinia"],
             jose: ["jose"],
