@@ -1,0 +1,13 @@
+{
+  "tabWidth": 2,
+  "semi": false,
+  "printWidth": 120,
+  "singleQuote": false,
+  "quoteProps": "consistent",
+  "htmlWhitespaceSensitivity": "strict",
+  "vueIndentScriptAndStyle": true,
+  "trailingComma": "all",
+  "arrowParens": "avoid",
+  "importOrder": ["^@(.*)$", "^[./]"],
+  "importOrderSeparation": true
+}
